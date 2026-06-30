@@ -1,4 +1,5 @@
-// import { gsap } from "gsap/dist/gsap";
+document.addEventListener("DOMContentLoaded", function() {
+    // import { gsap } from "gsap/dist/gsap";
 gsap.registerPlugin(SplitText);
 
 let text = new SplitText(".hero", {type:"words,chars"});
@@ -53,3 +54,4 @@ gsap.from(text.words,{
 //   duration: 0.8,
 //   text: ""
 // });
+})
